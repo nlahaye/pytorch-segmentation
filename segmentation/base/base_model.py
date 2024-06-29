@@ -1,7 +1,7 @@
 import logging
 import torch.nn as nn
 import numpy as np
-from utils.torchsummary import summary
+from segmentation.utils.torchsummary import summary
 
 class BaseModel(nn.Module):
     def __init__(self):
